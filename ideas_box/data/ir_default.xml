@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="active_ideas_3eac3321-a49b-4f18-8eda-08872fb8a983" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="active_ideas_91ed4428-e914-4a18-b3f3-afbe74337bd1"/>
+    <field name="json_value">true</field>
+  </record>
+  <record id="sequence_ideas_58e46710-c300-4af8-afd4-b800defe2156" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="sequence_ideas_0e45c69d-9269-4130-8784-d8d7341945a4"/>
+    <field name="json_value">10</field>
+  </record>
+</odoo>

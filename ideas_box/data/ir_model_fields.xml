@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="description_ideas_e7c69374-9c84-4885-b2a4-48792c4121f6" model="ir.model.fields" context="{'studio': True}">
+    <field name="ttype">char</field>
+    <field name="copied" eval="True"/>
+    <field name="field_description">Description</field>
+    <field name="model">x_ideas</field>
+    <field name="model_id" ref="ideas_5287fc1a-e162-49df-a551-4391b8156e5a"/>
+    <field name="name">x_name</field>
+    <field name="on_delete" eval="False"/>
+    <field name="required" eval="True"/>
+    <field name="tracking">1</field>
+    <field name="translate" eval="True"/>
+  </record>
+  <record id="active_ideas_91ed4428-e914-4a18-b3f3-afbe74337bd1" model="ir.model.fields" context="{'studio': True}">
+    <field name="ttype">boolean</field>
+    <field name="copied" eval="True"/>
+    <field name="field_description">Active</field>
+    <field name="model">x_ideas</field>
+    <field name="model_id" ref="ideas_5287fc1a-e162-49df-a551-4391b8156e5a"/>
+    <field name="name">x_active</field>
+    <field name="on_delete" eval="False"/>
+    <field name="tracking">1</field>
+  </record>
+  <record id="sequence_ideas_0e45c69d-9269-4130-8784-d8d7341945a4" model="ir.model.fields" context="{'studio': True}">
+    <field name="ttype">integer</field>
+    <field name="copied" eval="True"/>
+    <field name="field_description">Sequence</field>
+    <field name="model">x_ideas</field>
+    <field name="model_id" ref="ideas_5287fc1a-e162-49df-a551-4391b8156e5a"/>
+    <field name="name">x_studio_sequence</field>
+    <field name="on_delete" eval="False"/>
+  </record>
+</odoo>

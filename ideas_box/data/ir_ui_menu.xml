@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="ideas_box_f4b0e6dc-3f94-443a-b280-ca1f3a6c3caf" model="ir.ui.menu" context="{'studio': True}">
+    <field name="name">Ideas Box</field>
+    <field name="web_icon">fa fa-lightbulb-o,#f1c40f,#FFFFFF</field>
+  </record>
+  <record id="ideas_box_ideas_e49c0c32-a087-4890-9ec4-3e41a3d0e251" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="ideas_ade288e1-6065-47a8-90c1-21239933482a"/>
+    <field name="name">Ideas</field>
+    <field name="parent_id" ref="ideas_box_f4b0e6dc-3f94-443a-b280-ca1f3a6c3caf"/>
+  </record>
+</odoo>
